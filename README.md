@@ -36,16 +36,29 @@ The aim of the project was to find the most popular running game on which player
 
 # Libraries Used:
 import pandas as pd
+
 import requests
+
 import numpy as np
+
 from bs4 import BeautifulSoup as bs
+
 import requests
+
 import os
+
 import json
+
 from sqlalchemy import create_engine
+
 from pprint import pprint
+
 from splinter import Browser
+
 from webdriver_manager.chrome import ChromeDriverManager
+
 from selenium import webdriver
+
 import time
+
 import pymongo
